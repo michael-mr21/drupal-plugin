@@ -1,0 +1,7 @@
+vue_items_list.view:
+  path: '/vue-items-list'
+  defaults:
+    _controller: '\Drupal\vue_items_list\Controller\ItemsListController::view'
+    _title: 'Vue Items List'
+  requirements:
+    _permission: 'access content'

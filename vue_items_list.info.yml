@@ -1,0 +1,7 @@
+name: 'Vue Items List'
+type: module
+description: 'A custom module to display a list of items using Vue.js and TypeScript.'
+core_version_requirement: ^10
+package: Custom
+dependencies:
+  - drupal:block

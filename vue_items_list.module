@@ -1,0 +1,11 @@
+<?php
+
+/**
+ * Implements hook_help().
+ */
+function vue_items_list_help($route_name, $route_match) {
+  switch ($route_name) {
+    case 'help.page.vue_items_list':
+      return '<p>' . t('Displays a list of items using Vue.js and TypeScript.') . '</p>';
+  }
+}
